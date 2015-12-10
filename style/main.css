@@ -89,3 +89,9 @@ svg {
 .carousel {
     position: relative;
 }
+
+.flip-clock {
+    display: inline-block !important;
+    margin: 50px auto !important;
+    width: auto !important;
+}

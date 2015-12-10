@@ -133,9 +133,7 @@
       </section>
       <section id="form" class="slide-wrap slide-white container">
         <h2>Form</h2>
-        <div class="flip-clock">
-
-        </div>
+        <div class="flip-clock"></div>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </section>
       <section id="footer" class="slide-wrap slide-white container">
@@ -160,9 +158,10 @@
     <script>
     $(function(){
       var clock = $('.flip-clock').FlipClock({
-        countdown: true
+        countdown: true,
+        clockFace: 'DailyCounter'
       });
-      clock.setTime(3600);
+      clock.setTime(3600 * 24 * 7);
       clock.start();
     });
     </script>
