@@ -57,11 +57,9 @@ main {
   width: 100vw;
 }
 #fancy-chart {
-  /*opacity: 0.2;*/
+  opacity: 0.6;
 }
-svg {
-  width: 100% !important;
-}
+
 .slide-white {
   background: white;
   color: #2b3e50;
