@@ -135,6 +135,7 @@ small.header-intro {
 
    .smpl-step > .smpl-step-step .smpl-step-info {
        font-size: 14px;
+       padding-left: 3em;
        padding-top: 27px;
    }
 
@@ -207,4 +208,9 @@ small.header-intro {
     height: 250px;
     padding:15px;
     overflow-y: scroll
+}
+.list-group {
+  border: none;
+  box-shadow: none;
+  text-align: left;
 }
