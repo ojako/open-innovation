@@ -232,3 +232,7 @@ small.header-intro {
   box-shadow: none;
   text-align: left;
 }
+
+.progress-bar, .progress {
+  background: #428BCA !important;
+}
