@@ -86,6 +86,12 @@ main {
   border-top-right-radius: 5px;
 }
 
+.inside-container {
+  width: 100%;
+  max-width: 2024px;
+  margin: 0 auto;
+}
+
 /* repsonsive embed vimeo */
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 2024px; margin: 0 auto;
 }
