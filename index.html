@@ -17,6 +17,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style/theme.min.css">
 
     <link rel="stylesheet" href="style/main.css">
@@ -30,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body role="chicken-shwarma">
+  <body role="chicken-shawarma">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -57,13 +59,14 @@
     </nav>
 
     <main>
-      <section class="slide-wrap slide-white">
-        <header class="page-header intro-header container">
-          <h1 class="featurette-heading">Insuring the Future: <span class="text-muted">Creating Solutions for Driverless Automobiles</span></h1>
-        </header>
-        <p class="lead">
-          The future is full of driverless cars, leading to a potential change in how cars are insured. We want you to have an input on how we cover the liabilities that are inherent within automated cars so let’s hear your great ideas for a new insurance product.
-        </p>
+      <section class="header-slide slide-wrap slide-white clearfix">
+          <header class="col-md-8 col-md-offset-2">
+            <h1 class="featurette-heading">Insuring the Future</h1>
+            <p class="lead text-muted">Creating Solutions for Driverless Automobiles</p>
+            <small class="header-intro">
+              The future is full of driverless cars, leading to a potential change in how cars are insured. We want you to have an input on how we cover the liabilities that are inherent within automated cars so let’s hear your great ideas for a new insurance product.
+            </small>
+          </header>
       </section>
       <section class="slide-wrap slide-image container">
       </section>
@@ -78,52 +81,85 @@
           <!-- Three columns of text below the carousel -->
           <div class="row">
             <div class="col-lg-6">
-              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
+              <i class="circle-icon fa fa-lightbulb-o"></i>
               <h2>Innovation</h2>
               <p>
                 The insurance industry is having its Napster moment. Innovations within driverless cars are great for car insurance consumers. The experts report that automated cars will lead to a plunge in accidents, require less coverage and reduce insurance premiums. While this is great news, automated cars are not without risk as the technology behind the automation does introduce the possibility of ill intent by hackers.
               </p>
-              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+              <!-- <p><a class="btn btn-default" href="#" role="button">View details »</a></p> -->
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-6">
-              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
+              <i class="circle-icon fa fa-car"></i>
               <h2>Responsibility</h2>
               <p>
                 The car insurance industry will need to be redefined to take into account a different type of liability and the shared responsibility. We aim to protect all commuters, but how do we do approach this to give the best value to our customers.
               </p>
-              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+              <!-- <p><a class="btn btn-default" href="#" role="button">View details »</a></p> -->
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
-          <div class="challenge-possibilities">
-            <p>
+          <hr>
+          <div class="col-md-8 col-md-offset-2 challenge-possibilities">
+            <p class="lead">
               There is lots to consider when creating a new insurance product for driverless cars. Here are a few contemplations to get you going:
             </p>
-            <ul>
-              <li>Who is liable when an accident happens?</li>
-              <li>How can we protect individuals, companies, families?</li>
-              <li>Who needs insurance – manufacturers, technology suppliers, individuals?</li>
-              <li>How can we create a marketplace that is fair and accessible for everyone?</li>
-            </ul>
+            <div class="list-group">
+              <p><i class="fa fa-question-circle fa-fw"></i>&nbsp; Who is liable when an accident happens?</p>
+              <p><i class="fa fa-question-circle fa-fw"></i>&nbsp; How can we protect individuals, companies, families?</p>
+              <p><i class="fa fa-question-circle fa-fw"></i>&nbsp; Who needs insurance – manufacturers, technology suppliers, individuals?</p>
+              <p><i class="fa fa-question-circle fa-fw"></i>&nbsp; How can we create a marketplace that is fair and accessible for everyone?</p>
+            </div>
           </div>
       </section>
       <section class="slide-wrap video-wrap container">
         <div class='embed-container'><iframe src='https://player.vimeo.com/video/121989569' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
       </section>
       <section id="how" class="slide-wrap container">
-        <div class="row featurette" >
-          <div class="col-md-5 slide-side-image" id="fancy-chart">
-          </div>
-          <div class="col-md-7">
-            <h2 class="featurette-heading">What you need to do <span class="text-muted">The workflow</span></h2>
-            <ul>
-              <li>Ideation</li>
-              <li>Selection</li>
-              <li>Co-creation</li>
-              <li>Evaluation</li>
-              <li>Pitch</li>
-              <li>Winner Announced!</li>
-            </ul>
-          </div>
+        <div id="fancy-chart"></div>
+        <div class="col-md-6 col-md-offset-3 clearfix">
+          <h2 class="featurette-heading">What you need to do <span class="text-muted">The workflow</span></h2>
+          <div class="row smpl-step" style="border-bottom: 0; margin-top: 100px; margin-bottom: 75px; min-width: 500px;">
+                  <div class="col-xs-3 smpl-step-step complete">
+                      <div class="text-center smpl-step-num">Step 1</div>
+                      <div class="progress">
+                          <div class="progress-bar"></div>
+                      </div>
+                      <a class="smpl-step-icon"><i class="fa fa-pencil-square-o" style="font-size: 50px; padding-top: 3px; color: black; margin-left: 7px; margin-top: 12px;"></i></a>
+                      <!-- <div class="smpl-step-info text-center"></div> -->
+                  </div>
+
+                  <div class="col-xs-3 smpl-step-step complete">
+                      <div class="text-center smpl-step-num">Step 2</div>
+                      <div class="progress">
+                          <div class="progress-bar"></div>
+                      </div>
+                      <a class="smpl-step-icon"><i class="fa fa-check" style="font-size: 60px; padding-top: 5px; color: black;"></i></a>
+                      <!-- <div class="smpl-step-info text-center">Process Payment and fill out all required fields.</div> -->
+                  </div>
+                  <div class="col-xs-3 smpl-step-step active">
+                      <div class="text-center smpl-step-num">Step 3</div>
+                      <div class="progress">
+                          <div class="progress-bar"></div>
+                      </div>
+                      <a class="smpl-step-icon"><i class="fa fa-repeat" style="font-size: 60px; padding-top: 7px; color: black;"></i></a>
+                      <!-- <div class="smpl-step-info text-center">Confirm Data entered in step 2.</div> -->
+                  </div>
+                  <div class="col-xs-3 smpl-step-step disabled">
+                      <div class="text-center smpl-step-num">Step 4</div>
+                      <div class="progress">
+                          <div class="progress-bar"></div>
+                      </div>
+                      <a class="smpl-step-icon" style="background: gold;"><i class="fa fa-dollar" style="font-size: 60px; padding-top: 4px; color: black;"></i></a>
+                      <!-- <div class="smpl-step-info text-center">Download product after receiving confirmation email.</div> -->
+                  </div>
+              </div>
+          <!-- <ul>
+            <li>Ideation</li>
+            <li>Selection</li>
+            <li>Co-creation</li>
+            <li>Evaluation</li>
+            <li>Pitch</li>
+            <li>Winner Announced!</li>
+          </ul> -->
         </div>
       </section>
       <section id="prize" class="slide-wrap slide-white container">
@@ -175,10 +211,11 @@
         <h2>Form</h2>
         <div class="flip-clock"></div>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <iframe src="http://wazoku.com/" frameborder="0" width="100%" height="500"></iframe>
       </section>
       <section id="footer" class="slide-wrap slide-white container">
-        <a href="https://www.linkedin.com/company/wazoku" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a> &nbsp;&nbsp;
-        <a href="https://twitter.com/WazokuHq" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/company/wazoku" target="_blank"><i class="fa fa-4x fa-facebook-official"></i></a> &nbsp;&nbsp;
+        <a href="https://twitter.com/WazokuHq" target="_blank"><i class="fa fa-4x fa-twitter-square"></i></a>
       </section>
     </main><!-- /.container -->
 

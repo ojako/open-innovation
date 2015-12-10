@@ -1,5 +1,5 @@
-var width = 960,
-        height = 500,
+var width = 250,
+        height = 250,
         outerRadius = Math.min(width, height) * .5 - 10,
         innerRadius = outerRadius * .6;
 
